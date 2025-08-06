@@ -56,5 +56,3 @@ When ran, the script processes all images in the current directory and its subdi
 ## Notes
 
 * This script will preserve your original image by saving the new image as a separate file without the Exif data, adding the suffix '_no_exif,' to the original filename
-
-* I don't trust Python's garbage cleanup and I won't make you either; image files are explicitly closed when they have finished processing
